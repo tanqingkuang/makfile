@@ -1,0 +1,6 @@
+Compared the version_2, the folder uses automatic dervation of makefile.
+
+For example:
+
+    When GUN finds that the "edit" file depends on a "main.o", the compiler will automatically use "gcc -c main.c" instruction. In this case, we just need to designate some H-files to "main.c".
+

@@ -1,0 +1,16 @@
+The makefile file in the folder use a simplest command type, which is such as
+
+target : prerequisites	<->	main.o : main.c print.h
+	command		<->    		gcc -c main.c
+
+There are some notes
+
+1."target" is result of the instruction. It can be an object file, or an exec file , even a label.
+
+2."prerequisites" are some files which are used to build the "target".
+
+3."command" is a shell instruction, which often is a make command such as "gcc -o" or "gcc -c"
+	gcc -o target prerequisites  	<-> 	gcc -o edit main.o print.o
+        gcc -c prerequisites         	<->     gcc -c main.c
+
+4.There must be a <TAB> before "command"

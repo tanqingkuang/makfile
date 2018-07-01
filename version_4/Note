@@ -1,0 +1,3 @@
+Compared the version_3, the floder uses a variable to replace all H-files.
+
+We can destine that all object files depend on all H-files, which can reduce complexity of makefile file.

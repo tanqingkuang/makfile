@@ -1,0 +1,7 @@
+Compared the verson_1, the folder uses a variable replace the object files.
+
+There two advatages:
+
+1.Reduce the complexity of the makefile file.
+
+2.Enhance the extensibility of the makefile file.

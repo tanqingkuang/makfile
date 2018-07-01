@@ -1,0 +1,22 @@
+The folder is used to learn makefile funtion ---- zhangmeng 2018/6/30
+
+
+All folders with differet versions have same C-files ane H-files.
+
+The work of project is very simple, which is just printing "Hello world" and "Hi world".
+
+A project has three C-files and two H-files: main.c print_hello.c print_hello.h print_hi.c print_hi.h.
+
+	A function is defined in the "print_hello.c" to printf "Hello world", which is declared in the "print_hello.h".
+
+	A function is defined in the "print_hi.c" to printf "Hi world", which is declared in the "print_hi.h".
+
+	The main function in the "main.c" calls two print function, so the "main.c" file has to include the two H-files.
+
+The differences in different version are "makefile" and "Note" files.
+
+	With the version increase, the "makefile" files will be more complex and more easily to true subject.
+
+	There are some brief implementation method of "makefile" in the "Note" files.
+
+Users can use "make" command to produce a "edit" which is the result of the compilation and some *.o which are object files, and use "make clean" to deletethe result and object files.
